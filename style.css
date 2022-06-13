@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+/* label {
+  display: block;
+  font-weight: bolder;
+}
+*/
+form {
+  width: 50%;
+}
+fieldset {
+  /* border-color: #eeeeee; */
+  border: 1px solid #eeeeee;
+}
+.BOX {
+  width: 810px;
+  height: 28px;
+  margin-top: 7px;
+  /* display: none; */
+}
+.BIGBOX {
+  margin-top: 7px;
+}
+.PersonalData {
+  /* color: blue; */
+  color: #3766b8;
+  font-weight: bolder;
+  /* border: 1px solid black; */
+  /* border-collapse: collapse; */
+  /* display: block; */
+}
+.Products {
+  /* color: blue; */
+  color: #3766b8;
+  font-weight: bolder;
+  /* display: block; */
+}
+label {
+  font-weight: bolder;
+}
+/* label{
+  display: block;
+  font-weight:bold;
+  margin:5px 0;
+} */
+
+/* inline, 
+label.inline{
+  display: inline;
+  font-weight:normal;
+} */
+.submit {
+  margin: 12px;
+  background-color: rgb(48, 145, 48);
+  color: white;
+  /* border: 1px solid black; */
+  width: 170px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+}
+.BOX-Category {
+  width: 810px;
+  height: 28px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  background-color: lightgrey;
+}
+
+.fontNormal {
+  font-weight: normal;
+}
+
+input[type="radio"] {
+  accent-color: orangered;
+}
